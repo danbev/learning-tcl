@@ -28,3 +28,12 @@ String interpolation works when using double quotes but not when using brackets.
 Brackets ([]) can be used to replace the contents of a variable in the same
 way that backticks can be used in a shell.
 
+### Functions
+Notice that arguments are not separated by commas:
+```tcl
+proc something {a b} {
+	puts "something called: arg1: $a\n"
+}
+```
+Tcl uses whitespace to separate arguments.
+
