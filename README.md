@@ -1,6 +1,6 @@
 ## Tool Command Language (Tcl)
 Is a scripting language and is used in openocd which is my main motivation
-for learning a little more about the languate.
+for learning a little more about the language.
 
 ### Tcl shell
 You can pass a file to the program or it can be used as a REPL:
